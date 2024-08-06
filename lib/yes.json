@@ -1,0 +1,42 @@
+[
+  {
+    "name": "推薦",
+    "list": [
+      {
+        "url": "https://gitlab.com/xmaec555/my/-/raw/main/rwm.jpg",
+        "icon": "https://gitlab.com/xmaec555/my/-/raw/main/rwm.jpg"
+      }
+   ]
+  },
+  {
+    "name": "扫码加入",
+    "list": [
+      {
+        "url": "https://gitlab.com/xmaec555/my/-/raw/main/rwm.jpg",
+        "icon": "https://gitlab.com/xmaec555/my/-/raw/main/rwm.jpg"
+      }
+    ]
+  },
+  {
+    "name": "影视TV",
+    "list": [
+      {
+        "name": "Download",
+        "url": "https://gitlab.com/xmaec555/my/-/raw/main/244.apk",
+        "icon": "https://gitlab.com/xmaec555/my/-/raw/main/bhtv.png",
+        "version": "2.4.4"
+      }
+    ]
+  },
+{
+    "name": "v2rayNG",
+    "list": [
+      {
+        "name": "Download",
+        "url": "https://gitlab.com/xmaec555/my/-/raw/main/v2rayNG.apk",
+        "icon": "https://gitlab.com/xmaec555/my/-/raw/main/V2rayNG.png",
+        "version": "1825"
+      }
+    ]
+  }
+]
