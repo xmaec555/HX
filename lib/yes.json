@@ -22,9 +22,9 @@
     "list": [
       {
         "name": "Download",
-        "url": "https://gitlab.com/xmaec555/C/-/raw/main/img/tvapp.apk",
+        "url": "https://gitlab.com/xmaec555/C/-/raw/main/img/tvapp.apk?ref_type=heads",
         "icon": "https://86.hx208.top/img/bhtv.png",
-        "version": "8.8.0"
+        "version": "8.0.0"
       }
     ]
   },
