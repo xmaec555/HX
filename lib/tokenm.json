@@ -61,7 +61,7 @@
 "libxl_url":"./libxl_thunder_sdk.so",
 "youtube_proxy":"proxy",
 "singbox_url":"./sing-box.gz",
-"singbox_subscribe_url":"./v.josn",
+"singbox_subscribe_url":"https://raw.githubusercontent.com/xmaec555/xmaec555.github.io/main/CSV/v.json",
 "singbox_clash2singbox_url":"./clash2singbox.gz",
 "singbox_template_url":"./singbox.json",
 "pan115_cookie":"",
