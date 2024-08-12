@@ -1,12 +1,12 @@
 var rule = {
 	title:'MP4电影[磁]',
-	host:'https://www.mp4us.com',
+	host:'/p/0/127.0.0.1:10072/https://www.mp4us.com',
         homeUrl: '/',
-	url: '/list/fyclass-fypage.html?',
+	url: '/p/0/127.0.0.1:10072/https://www.mp4us.com/list/fyclass-fypage.html?',
 	filter_url:'{{fl.class}}',
 	filter:{
 	},
-	searchUrl: '/search/**-1.html',
+	searchUrl: '/p/0/127.0.0.1:10072/https://www.mp4us.com/search/**-1.html',
 	searchable:2,
 	quickSearch:0,
 	filterable:0,
