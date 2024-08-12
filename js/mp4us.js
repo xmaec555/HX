@@ -2,11 +2,11 @@ var rule = {
 	title:'MP4电影[磁]',
 	host:'https://www.mp4us.com',
         homeUrl: '/',
-	url: 'http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.mp4us.com/list/fyclass-fypage.html?',
+	url: 'http://127.0.0.1:10072/proxy?do=yt&proxy=proxy&url=https://www.mp4us.com/list/fyclass-fypage.html?',
 	filter_url:'{{fl.class}}',
 	filter:{
 	},
-	searchUrl: 'http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.mp4us.com/search/**-1.html',
+	searchUrl: 'http://127.0.0.1:10072/proxy?do=yt&proxy=proxy&url=https://www.mp4us.com/search/**-1.html',
 	searchable:2,
 	quickSearch:0,
 	filterable:0,
