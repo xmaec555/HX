@@ -55,10 +55,22 @@
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
-      "jar": "./zx/custom_spider.jar",
+      "jar": "https://top.hx208.top/zx/custom_spider.jar",
       "ext": {
-        "commonConfig": "./zx/peizhi.json",
-        "share": "./zx/网盘集合.json"
+        "commonConfig": "https://top.hx208.top/zx/peizhi.json",
+        "share": "https://top.hx208.top/zx/网盘集合.json"
+      }
+    },
+ {
+      "key": "ConfigCenter",
+      "name": "真心配置",
+      "type": 3,
+      "api": "csp_ConfigCenter",
+      "searchable": 0,
+      "changeable": 0,
+      "jar": "https://top.hx208.top/zx/custom_spider.jar",
+      "ext": {
+        "commonConfig": "./lib/tokenm.json"
       }
     },
 		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
