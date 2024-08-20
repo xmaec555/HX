@@ -1,2 +1,20 @@
-新人推荐,#genre#
-精彩内容,https://top.hx208.top/lib/hx208.mp4
+精彩推荐,#genre#
+精彩内容, https://top.hx208.top/lib/hx208.mp4
+中天新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=oIgbl7t0S_w
+中天新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/live/oIgbl7t0S_w?feature=share
+民視新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=ylYJSBUgaMA
+中視新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=TCnaIE_SAtM
+台視新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=xL0ch83RAK8
+東森新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=V1p33hqPrUk
+公視新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=quwqlazU-c8
+TVBS新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=2mCSYvcfhtc
+TVBS NEWS, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=m_dhMSvUCIc
+寰宇新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=6IquAgfvYmc
+鏡新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=5n0y6b0Q25o
+中天亞洲台, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=MJFaJER4Qxo
+live三立, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=FoBfXvlOR6I
+三立NEWS+, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=oZdzzvxTfUY
+東森財經新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=WHEPzbFA3hw
+三立iNEWS, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=CKjSm5ZeehE
+華視新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=127.0.0.1:10172|127.0.0.1:10074&url=https://www.youtube.com/watch?v=wM0g8EoUZ_E
+台灣地震監視, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=Owke6Quk7T0
