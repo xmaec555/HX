@@ -1,4 +1,4 @@
-精彩推荐,#genre#
+台湾电视台,#genre#
 精彩内容, https://top.hx208.top/lib/hx208.mp4
 中天新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/watch?v=oIgbl7t0S_w
 中天新聞, http://127.0.0.1:9978/proxy?do=yt&proxy=proxy&url=https://www.youtube.com/live/oIgbl7t0S_w?feature=share
