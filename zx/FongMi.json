@@ -2,6 +2,16 @@
   "spider": "./custom_spider.jar;md5;43989964965deab2a4b6b48251043412",
   "sites": [
     {
+      "key": "dr_豆瓣",
+      "name": "🔍豆瓣荐片(js)",
+      "type": 3,
+      "api": "./js/lib/drpy2.min.js",
+      "searchable": 2,
+      "quickSearch": 0,
+      "filterable": 0,
+      "ext": "./js/douban.js"
+    },
+    {
       "key": "玩偶gg",
       "name": "玩偶gg",
       "type": 3,
@@ -15,6 +25,22 @@
       }
     },
     {
+      "key": "哔哩FM",
+      "name": "哔哩",
+      "type": 3,
+      "api": "csp_Bili",
+      "searchable": 1,
+      "changeable": 0,
+      "style": {
+        "type": "rect",
+        "ratio": 1.433
+      },
+      "ext": {
+        "json": "./bilibili.json",
+        "cookie": ""
+      }
+    },
+    {
       "key": "玩偶 | 蜡笔",
       "name": "玩偶 | 蜡笔",
       "type": 3,
@@ -23,7 +49,7 @@
       "changeable": 0,
       "ext": {
         "commonConfig": "./peizhi.json",
-        "siteUrl": "https://duopan.fun/",
+        "siteUrl": "https://duopan.fun",
         "filter": "./wogg.json"
       }
     },
@@ -39,29 +65,110 @@
       }
     },
     {
-      "key": "TgYunPan1",
-      "name": "TgYunPan1",
+      "key": "星剧社",
+      "name": "星剧社",
       "type": 3,
-      "api": "csp_TgYunPan",
+      "api": "csp_Star2",
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "siteUrl": "http://144.126.217.226:8000",
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
+      "key": "易搜",
+      "name": "易搜|4K",
+      "type": 3,
+      "api": "csp_YiSo",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
+      "key": "盤搜索",
+      "name": "盤搜索",
+      "type": 3,
+      "api": "csp_PanSearch",
+      "searchable": 1,
+      "changeable": 0,
+      "ext": {
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
+      "key": "賤賤",
+      "name": "賤賤",
+      "type": 3,
+      "api": "csp_Jianpian",
+      "searchable": 1,
+      "changeable": 1,
+      "ext": "https://ghproxy.net/https://raw.githubusercontent.com/FongMi/CatVodSpider/main/json/jianpian.json"
+    },
+    {
+      "key": "TgYunPanLocal1",
+      "name": "TgYunPanLocal1",
+      "type": 3,
+      "api": "csp_TgYunPanLocal",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
         "channelUsername": "yunpanshare",
         "commonConfig": "./peizhi.json"
       }
     },
     {
-      "key": "TgYunPan5",
-      "name": "TgYunPan5",
+      "key": "TgYunPanLocal2",
+      "name": "TgYunPanLocal2",
       "type": 3,
-      "api": "csp_TgYunPan",
+      "api": "csp_TgYunPanLocal",
       "searchable": 1,
       "filterable": 0,
       "switchable": 0,
       "ext": {
-        "siteUrl": "http://144.126.217.226:8000",
+        "channelUsername": "shareAliyun",
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
+      "key": "TgYunPanLocal3",
+      "name": "TgYunPanLocal3",
+      "type": 3,
+      "api": "csp_TgYunPanLocal",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "channelUsername": "kuakeyun",
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
+      "key": "TgYunPanLocal4",
+      "name": "TgYunPanLocal4",
+      "type": 3,
+      "api": "csp_TgYunPanLocal",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
+        "channelUsername": "qixingzhenren",
+        "commonConfig": "./peizhi.json"
+      }
+    },
+    {
+      "key": "TgYunPanLocal5",
+      "name": "TgYunPanLocal5",
+      "type": 3,
+      "api": "csp_TgYunPanLocal",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "ext": {
         "channelUsername": "guaguale115",
         "commonConfig": "./peizhi.json"
       }
