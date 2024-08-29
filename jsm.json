@@ -3,7 +3,7 @@
 	"sites":[
 		{
 			"key": "豆瓣",
-			"name": "豆瓣",
+			"name": "本接口由[hx208.top]免费提供",
 			"type": 3,
 			"api": "csp_Douban",
 			"searchable": 0,
@@ -11,9 +11,17 @@
 			"indexs":1,
 			"ext": "./lib/douban.json"
 		},
+                {
+			"key": "广告",
+			"name": "台湾直播LIVE",
+			"type": 3,
+			"searchable": 0,
+			"api": "./lib/live2vod.js",
+			"ext": "https://top.hx208.top/sb/hx208.json"
+		},
 		{
 			"key":"Youtube",
-			"name":"Youtube",
+			"name":"Youtube（免翻可看）",
 			"type":3,
 			"api": "csp_Youtube",
 			"searchable": 1,
@@ -34,9 +42,18 @@
 				"ratio": 1.77
 			}
 		},
+                {
+			"key": "联系我们",
+			"name": "机顶盒|购买咨询",
+			"type": 3,
+			"api": "csp_Market",
+			"searchable": 0,
+			"changeable": 0,
+			"ext": "https://85.hx208.top/tg.json"
+		},
 		{
 			"key": "网盘配置",
-			"name": "网盘及彈幕配置",
+			"name": "配置中心",
 			"type": 3,
 			"api": "csp_Config",
 			"searchable": 0,
@@ -47,7 +64,69 @@
 				"ratio": 1.5
 			}
 		},
-		{"key":"Local","name":"本地","type":3,"api":"csp_Local"},
+                {
+      "key": "网盘集合",
+      "name": "真心|网盘集合",
+      "type": 3,
+      "api": "csp_网盘集合",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "jar": "https://top.hx208.top/zx/custom_spider.jar",
+      "ext": {
+        "commonConfig": "./lib/tokenm.json",
+        "share": "https://top.hx208.top/zx/网盘集合.json"
+      }
+    },
+ {
+      "key": "玩偶gg",
+      "name": "真心 | 玩偶",
+      "type": 3,
+      "api": "csp_Wogg",
+      "searchable": 1,
+      "changeable": 0,
+      "jar": "https://top.hx208.top/zx/custom_spider.jar",
+      "ext": {
+        "commonConfig": "./lib/tokenm.json",
+        "siteUrl": "https://www.wogg.bf/",
+        "filter": "./lib/wogg.json"
+      }
+    },
+   {"key": "超级","name": "洪溪多线","type": 3,"api": "csp_XBPQ","jar": "./lib/XBPQ.jar","ext": {"分类url":"https://cjvip.free.hr/index.php/vod/show/area/{area}/by/{by}/class/{class}/id/{cateId}/page/{catePg}/year/{year}.html","分类": "http://cjvip.free.hr/api.php/provide/vod/?ac=list" }},
+        {
+      "key": "星剧社",
+      "name": "双子星|网盘",
+      "type": 3,
+      "api": "csp_Star2",
+      "searchable": 1,
+      "filterable": 0,
+      "switchable": 0,
+      "jar": "https://top.hx208.top/zx/custom_spider.jar",
+      "ext": {
+        "commonConfig": "./lib/tokenm.json"
+      }
+    },
+                {"key":"drpy_js_NY","name":"纽约秒播","type":3,"api":"./lib/drpy2.min.js","ext":"./js/nyyy.js"},
+                {
+            "key": "歪片星球",
+            "name": "歪片星球",
+            "type": 3,
+            "api": "csp_XBPQ",
+            "jar": "./lib/XBPQ.jar",
+            "ext": {
+                "数组": "<a&&class=\"module-poster-item-info&&</a>",
+                "图片": "data-src=\"&&\"",
+                "标题": "title=\"&&\"",
+                "副标题": "module-item-note\"&&</div>",
+                "链接": "href=\"&&\"",
+                "简介": "module-info-introduction-content\"&&</div>",
+                "播放数组": "module-play-list\"&&</div>",
+                "线路数组": "module-tab-item tab-item\"&&</div>",
+                "线路标题": "data-dropdown-value=\"&&\"",
+                "分类url": "https://waipian14.com/show-{cateId}-{area}-{by}-{class}-----{catePg}---{year}/",
+                "分类": "电影$dianying#电视剧$juji#综艺$zongyi#动漫$dongman#短剧$duanju#纪录片$jilupian"
+            }
+        },
 		{"key":"PushShare","name":"我的资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$1",
 			"style": {
 				"type": "list",
